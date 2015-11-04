@@ -12,7 +12,7 @@ $margin-right: auto;
 
 
 //borders
-$border: 3px solid black;
+$border: 3px solid blue;
 
 //fonts
 $fontsize: 5em;
@@ -29,7 +29,8 @@ $margin6: 6px;
 
 $clearboth: both;
 $navbarborder: 2px dotted black;
-
+$navliststyle: none;
+$navdisplay: inline-block;
 
 #wrapper {
   width: $wrapper-width;
@@ -46,17 +47,14 @@ $navbarborder: 2px dotted black;
   text-align: $textalign;
   border: $border;
   margin:$margin12;
-
-
 }
 
 #navbar{
-  width: $navwidth;
   border: $border;
-  margin: $margin12;
-
-
+  text-align: center;
+  list-style: none;
 }
+
 #leftcolumn{
   float: $floattoleft;
   border: $border;

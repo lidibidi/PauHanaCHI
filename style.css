@@ -8,29 +8,29 @@
   font-size: 5em;
   font-weight: bold;
   text-align: center;
-  border: 3px solid black;
+  border: 3px solid blue;
   margin: 12px; }
 
 #navbar {
-  width: 98%;
-  border: 3px solid black;
-  margin: 12px; }
+  border: 3px solid blue;
+  text-align: center;
+  list-style: none; }
 
 #leftcolumn {
   float: left;
-  border: 3px solid black;
+  border: 3px solid blue;
   margin: 15px;
   width: 72%; }
 
 #rightcolumn {
   float: right;
-  border: 3px solid black;
+  border: 3px solid blue;
   margin: 15px;
   width: 20%; }
 
 #bottom {
   margin: 6px;
-  border: 3px solid black;
+  border: 3px solid blue;
   clear: both; }
 
 /*# sourceMappingURL=style.css.map */
