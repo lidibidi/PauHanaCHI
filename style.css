@@ -1,0 +1,36 @@
+#wrapper {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative; }
+
+#logo {
+  font-size: 5em;
+  font-weight: bold;
+  text-align: center;
+  border: 3px solid black;
+  margin: 12px; }
+
+#navbar {
+  width: 98%;
+  border: 3px solid black;
+  margin: 12px; }
+
+#leftcolumn {
+  float: left;
+  border: 3px solid black;
+  margin: 15px;
+  width: 72%; }
+
+#rightcolumn {
+  float: right;
+  border: 3px solid black;
+  margin: 15px;
+  width: 20%; }
+
+#bottom {
+  margin: 6px;
+  border: 3px solid black;
+  clear: both; }
+
+/*# sourceMappingURL=style.css.map */

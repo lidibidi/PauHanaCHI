@@ -1,0 +1,83 @@
+//variables
+
+//widths
+$navwidth: 98%;
+$widthleft: 72%;
+$widthright: 20%;
+$wrapper-width: 75%;
+
+//margins
+$margin-left: auto;
+$margin-right: auto;
+
+
+//borders
+$border: 3px solid black;
+
+//fonts
+$fontsize: 5em;
+$fontweight: bold;
+
+
+
+$position: relative;
+$textalign: center;
+$margin12: 12px;
+$floattoleft: left;
+$margin15: 15px;
+$margin6: 6px;
+
+$clearboth: both;
+$navbarborder: 2px dotted black;
+
+
+#wrapper {
+  width: $wrapper-width;
+  margin-left:$margin-left;
+  margin-right: $margin-right;
+  position: $position;
+
+
+}
+
+#logo {
+  font-size: $fontsize;
+  font-weight: $fontweight;
+  text-align: $textalign;
+  border: $border;
+  margin:$margin12;
+
+
+}
+
+#navbar{
+  width: $navwidth;
+  border: $border;
+  margin: $margin12;
+
+
+}
+#leftcolumn{
+  float: $floattoleft;
+  border: $border;
+  margin: $margin15;
+  width: $widthleft;
+}
+
+#rightcolumn{
+  float: right;
+  border: $border;
+  margin: $margin15;
+  width: $widthright;
+
+
+}
+
+#bottom{
+
+margin: $margin6;
+border:$border;
+clear: $clearboth;
+
+
+}
