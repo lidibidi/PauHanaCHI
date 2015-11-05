@@ -1,10 +1,14 @@
 //variables
+//backgroundimage
+$background-image: url(http://40.media.tumblr.com/4dfd423e04567c2179463eabdc77354c/tumblr_nj5spjJQMC1u9wlrpo1_1280.jpg);
+
 
 //widths
 $navwidth: 98%;
-$widthleft: 72%;
-$widthright: 20%;
+$widthleft: 65%;
+$widthright: 18%;
 $wrapper-width: 75%;
+$logowidth: 70%;
 
 //margins
 $margin-left: auto;
@@ -12,7 +16,7 @@ $margin-right: auto;
 
 
 //borders
-$border: 3px solid blue;
+$border: 4px inset yellow;
 
 //fonts
 $fontsize: 5em;
@@ -20,18 +24,24 @@ $fontweight: bold;
 
 
 
+
 $position: relative;
 $textalign: center;
-$margin12: 12px;
+$margin12: 10px;
 $floattoleft: left;
 $margin15: 15px;
 $margin6: 6px;
 
 $clearboth: both;
-$navbarborder: 2px dotted black;
+$navbarborder: 2px inset black;
 $navliststyle: none;
 $navdisplay: inline-block;
+$backgroundcolor: 00CED1;
 
+#body{
+  background-image: $background-image;
+
+}
 #wrapper {
   width: $wrapper-width;
   margin-left:$margin-left;
@@ -39,27 +49,42 @@ $navdisplay: inline-block;
   position: $position;
 
 
+
+
 }
 
 #logo {
+  font-family: sans-serif;
   font-size: $fontsize;
   font-weight: $fontweight;
   text-align: $textalign;
   border: $border;
   margin:$margin12;
+  font-family: 'Righteous', cursive;
+  width: 60%;
+margin-left: auto;
+margin-right: auto;
+
 }
 
 #navbar{
+  font-family: 'Righteous', cursive;
+list-style: inline-block;
   border: $border;
   text-align: center;
-  list-style: none;
+  list-style-type: square;
+  height: 30px;
 }
+
 
 #leftcolumn{
   float: $floattoleft;
   border: $border;
   margin: $margin15;
   width: $widthleft;
+  background-color: $backgroundcolor;
+  font-family: 'Righteous', cursive;
+  text-align: left;
 }
 
 #rightcolumn{
@@ -67,6 +92,11 @@ $navdisplay: inline-block;
   border: $border;
   margin: $margin15;
   width: $widthright;
+  padding-left: 12px;
+  font-family: 'Righteous', cursive;
+  text-align: left;
+
+
 
 
 }
@@ -76,6 +106,7 @@ $navdisplay: inline-block;
 margin: $margin6;
 border:$border;
 clear: $clearboth;
+font-family: 'Righteous', cursive;
 
 
 }
